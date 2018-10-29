@@ -3,7 +3,7 @@
     <name>Futboards</name>
     <description>An awesome Ionic/Cordova app.</description>
     <author email="helbertnunes97@gmail.com" href="http://ionicframework.com/">Helbert Nunes</author>
-    <content src="index.html" />
+    <content original-src="index.html" src="http://192.168.0.33:8100" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -86,6 +86,7 @@
         <variable name="KEEP_AVAUDIOSESSION_ALWAYS_ACTIVE" value="NO" />
     </plugin>
     <plugin name="cordova-plugin-nativeaudio" spec="3.0.9" />
+    <allow-navigation href="http://192.168.0.33:8100" />
     <engine name="ios" spec="4.5.5" />
-    <engine name="android" spec="~7.1.1" />
+    <engine name="android" spec="7.1.1" />
 </widget>
